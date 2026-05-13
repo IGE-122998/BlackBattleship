@@ -146,3 +146,47 @@ Como jogador, quero iniciar uma nova partida após o fim do jogo.
 
 ### US10 - Interface intuitiva
 Como jogador, quero uma interface simples e intuitiva para jogar facilmente.
+
+## Divisão de User Stories
+
+### Aluno 124133
+
+#### US1 - Criar nickname
+Como jogador, quero criar um nickname para poder identificar-me no jogo.
+
+#### US2 - Entrar numa partida
+Como jogador, quero entrar numa partida online para jogar contra outro jogador ou um robô.
+
+#### US3 - Criar link de convite
+Como jogador, quero gerar um link de convite para convidar amigos para jogar.
+
+#### US4 - Jogar contra um robô
+Como jogador, quero jogar contra um robô para praticar sozinho.
+
+### Aluno 122998
+
+#### US5 - Posicionar navios
+Como jogador, quero posicionar os meus navios no tabuleiro antes do início do jogo.
+
+#### US6 - Atacar posições inimigas
+Como jogador, quero selecionar posições no tabuleiro adversário para tentar destruir os navios inimigos.
+
+#### US7 - Ver resultados dos ataques
+Como jogador, quero receber indicação de acerto ou falha após cada ataque.
+
+#### US8 - Ver fim do jogo
+Como jogador, quero saber quando o jogo termina e quem venceu.
+
+### Aluno 122978
+
+#### US9 - Reiniciar jogo
+Como jogador, quero iniciar uma nova partida após o fim do jogo.
+
+#### US10 - Interface intuitiva
+Como jogador, quero uma interface simples e intuitiva para jogar facilmente.
+
+#### US11 - Sair da partida
+Como jogador, quero sair da partida quando desejar.
+
+#### US12 - Atualizar tabuleiro em tempo real
+Como jogador, quero que o tabuleiro seja atualizado em tempo real durante a partida.
