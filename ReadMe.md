@@ -80,3 +80,69 @@ Grupo:
 ### 📱 Aplicação Mobile
 34. Como utilizador, quero instalar a app mobile para jogar no telemóvel.
 35. Como utilizador, quero avaliar a aplicação na App Store ou Google Play.
+
+# Scrum Product Backlog - Black Battleship
+
+## Product Backlog
+
+### US1 - Criar nickname
+Como jogador, quero criar um nickname para poder identificar-me no jogo.
+
+### US2 - Entrar numa partida
+Como jogador, quero entrar numa partida online para jogar contra outro jogador ou um robô.
+
+### US3 - Criar link de convite
+Como jogador, quero gerar um link de convite para convidar amigos para jogar.
+
+### US4 - Jogar contra um robô
+Como jogador, quero jogar contra um robô para praticar sozinho.
+
+### US5 - Posicionar navios
+Como jogador, quero posicionar os meus navios no tabuleiro antes do início do jogo.
+
+### US6 - Atacar posições inimigas
+Como jogador, quero selecionar posições no tabuleiro adversário para tentar destruir os navios inimigos.
+# Scrum Product Backlog - Black Battleship
+
+## Product Backlog
+
+### US1 - Criar nickname
+Como jogador, quero criar um nickname para poder identificar-me no jogo.
+
+### US2 - Entrar numa partida
+Como jogador, quero entrar numa partida online para jogar contra outro jogador ou um robô.
+
+### US3 - Criar link de convite
+Como jogador, quero gerar um link de convite para convidar amigos para jogar.
+
+### US4 - Jogar contra um robô
+Como jogador, quero jogar contra um robô para praticar sozinho.
+
+### US5 - Posicionar navios
+Como jogador, quero posicionar os meus navios no tabuleiro antes do início do jogo.
+
+### US6 - Atacar posições inimigas
+Como jogador, quero selecionar posições no tabuleiro adversário para tentar destruir os navios inimigos.
+
+### US7 - Ver resultados dos ataques
+Como jogador, quero receber indicação de acerto ou falha após cada ataque.
+
+### US8 - Ver fim do jogo
+Como jogador, quero saber quando o jogo termina e quem venceu.
+
+### US9 - Reiniciar jogo
+Como jogador, quero iniciar uma nova partida após o fim do jogo.
+
+### US10 - Interface intuitiva
+Como jogador, quero uma interface simples e intuitiva para jogar facilmente.
+### US7 - Ver resultados dos ataques
+Como jogador, quero receber indicação de acerto ou falha após cada ataque.
+
+### US8 - Ver fim do jogo
+Como jogador, quero saber quando o jogo termina e quem venceu.
+
+### US9 - Reiniciar jogo
+Como jogador, quero iniciar uma nova partida após o fim do jogo.
+
+### US10 - Interface intuitiva
+Como jogador, quero uma interface simples e intuitiva para jogar facilmente.
