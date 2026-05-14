@@ -80,3 +80,5 @@ Grupo:
 ### 📱 Aplicação Mobile
 34. Como utilizador, quero instalar a app mobile para jogar no telemóvel.
 35. Como utilizador, quero avaliar a aplicação na App Store ou Google Play.
+
+
