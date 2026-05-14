@@ -1,0 +1,311 @@
+{
+  "id": "f51dbf5b-4c2a-4bed-9b34-4ad8b9b300af",
+  "version": "2.0",
+  "name": "TestSuite_122978",
+  "url": "https://papergames.io/en/battleship",
+  "tests": [{
+    "id": "f5494c22-50f7-4798-9867-fd4c9ec76725",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "aea7af32-3918-4352-be51-5b26af5eaafe",
+    "name": "UserStoryTest9",
+    "commands": [{
+      "id": "79487040-62c2-4b51-9cca-4a299e4caf9e",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3658e960-6d61-4466-9e81-3dea98e6ca19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ddd7276-82fe-4c34-b170-33b962321cc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1) > .btn-lg .flex-grow-1",
+      "targets": [
+        ["css=.w-100:nth-child(1) > .btn-lg .flex-grow-1", "css:finder"],
+        ["xpath=//app-juicy-button/button/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1564befe-2c24-429c-81a8-2ca9bb18c676",
+      "comment": "",
+      "command": "click",
+      "target": "css=.copy-text > span",
+      "targets": [
+        ["css=.copy-text > span", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'https://papergames.io/en/r/AeitUapou/367')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "361cc0e4-0278-46ff-8278-4326e4512bd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bounceIn",
+      "targets": [
+        ["css=.bounceIn", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'https://papergames.io/en/r/AeitUapou/367')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cccfdcd-9c74-4483-a887-0a10b845bff3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bounceIn",
+      "targets": [
+        ["css=.bounceIn", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'https://papergames.io/en/r/AeitUapou/367')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "79667587-915f-4ec7-9e23-472164365d38",
+    "name": "UserStoryTest10",
+    "commands": [{
+      "id": "2af6a3f9-2360-4dd8-8ea1-2f9e7f0a8a91",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/r/UZz0nlPw9h/176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "885734e4-69cf-4b58-bc4d-ba1fb57828fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "753c278f-c7fd-429c-9481-664dc3aa6a1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Play')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b058ad5c-1d49-4bad-9c39-b346e2d9511d",
+    "name": "UserStoryTest11",
+    "commands": [{
+      "id": "679fa935-6557-4a2d-b801-2c1cad224d6d",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "853df716-03c2-4f61-9405-7ab27b386bcc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ea56b31-c6cd-4cf0-83d3-5cedab6c2106",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ms-2 > div:nth-child(1)",
+      "targets": [
+        ["css=.ms-2 > div:nth-child(1)", "css:finder"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9722388-7ace-4f53-b0cc-405db1ab86a7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ms-2 > div:nth-child(1)",
+      "targets": [
+        ["css=.ms-2 > div:nth-child(1)", "css:finder"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dfec019-3fee-472e-9252-3004a245e49b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.credit",
+      "targets": [
+        ["css=.credit", "css:finder"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb2ab6d4-bbf8-440e-97ac-f2615a0f7242",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.credit",
+      "targets": [
+        ["css=.credit", "css:finder"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a59554-c366-4a09-9963-2f3fd26b99a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-coins",
+      "targets": [
+        ["css=.fa-coins", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef37d19-b02d-462a-a636-2c5da503ae81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-coins",
+      "targets": [
+        ["css=.fa-coins", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c04fe0-3801-4368-b6b8-bd18c48b6698",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-coins > path",
+      "targets": [
+        ["css=.fa-coins > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be274b2-fe40-4d68-a4cf-0afb73e542a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-coins > path",
+      "targets": [
+        ["css=.fa-coins > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ea8ae0-d322-4a3f-a66e-ac04f063d808",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.credit:nth-child(2) path",
+      "targets": [
+        ["css=.credit:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4719091a-2afd-4f90-bf53-9ac041240e2b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My account",
+      "targets": [
+        ["linkText=My account", "linkText"],
+        ["css=.mat-mdc-menu-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp0']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/account')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6cd5d87-3a18-4629-af0f-211f41a122c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer > .mat-mdc-menu-item-text",
+      "targets": [
+        ["css=.cursor-pointer > .mat-mdc-menu-item-text", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp0']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e54b888-dba4-42fd-804d-d87a9f4c469d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Friends",
+      "targets": [
+        ["linkText=Friends", "linkText"],
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(2) > .mat-mdc-tooltip-trigger", "css:finder"],
+        ["xpath=//a[contains(@href, '/en/friends')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Friends')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "669d4353-2054-480d-96ac-83fbb12f8b58",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0b4f4386-4bad-4e7c-bf92-1d713b5657c7",
+    "name": "UserStoryTest12",
+    "commands": [{
+      "id": "c2388459-5b89-4df2-b8cb-d095bf26d954",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8259cf1b-ed37-477e-84db-fa3a8a2b2f22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "865bc18a-d2b7-4f25-86d9-0b34c490c7ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav:nth-child(1) > .nav-item:nth-child(3) .hide-if-collapsed",
+      "targets": [
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(3) .hide-if-collapsed", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b873ba54-ee57-4dfd-8c0c-c64e4c960c86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .hide-if-collapsed",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f21c535-85af-4a95-abee-a29ad1c0e862",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused > .hide-if-collapsed",
+      "targets": [
+        ["css=.cdk-focused > .hide-if-collapsed", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1883bd50-4b06-46e9-b055-ab2e97453969",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f5494c22-50f7-4798-9867-fd4c9ec76725"]
+  }],
+  "urls": ["https://papergames.io/en/battleship"],
+  "plugins": []
+}
