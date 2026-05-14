@@ -1,0 +1,225 @@
+{
+  "id": "a142d642-cf3d-42e9-8ffc-c1b3f5ea4fae",
+  "version": "2.0",
+  "name": "TestSuite_124133",
+  "url": "https://papergames.io/en/battleship",
+  "tests": [{
+    "id": "83235b2a-7361-4a1a-b63c-69462816138f",
+    "name": "UserStoryTest5",
+    "commands": [{
+      "id": "d1345c68-6c0c-4dac-9f99-ebc538736222",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c717a20-069e-41d3-9ebf-0150a41eade8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "868x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0419ea17-2b8d-42bf-af32-bdb0b2cb4b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .fw-normal:nth-child(1)",
+      "targets": [
+        ["css=.d-flex > .fw-normal:nth-child(1)", "css:finder"],
+        ["xpath=//span[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "188a9868-2a86-4324-bcbe-53d6e0eff3d0",
+      "comment": "Iniciei uma nova partida com um jogador aleatório, uma partida online ",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "03e7e83a-b3b2-43d3-ad80-a43cc2bec4ac",
+    "name": "UserStoryTest6",
+    "commands": [{
+      "id": "876e32da-f449-4b85-b1fe-ed5c147d87ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41a69ef5-68d1-4642-8bc3-90b8859c4c8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "868x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db80dfc6-a76a-40ed-8e02-743324ee8a40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-100:nth-child(2) > .btn > .front",
+      "targets": [
+        ["css=.w-100:nth-child(2) > .btn > .front", "css:finder"],
+        ["xpath=//app-juicy-button[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6448c83f-f5a0-4413-a0bb-fc0461f33689",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-100:nth-child(2) > .btn > .front",
+      "targets": [
+        ["css=.w-100:nth-child(2) > .btn > .front", "css:finder"],
+        ["xpath=//app-juicy-button[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b46eadea-9541-4d46-bd0f-ba240d37674d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.position-relative > .edge",
+      "targets": [
+        ["css=.position-relative > .edge", "css:finder"],
+        ["xpath=//app-juicy-button[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec58e0f8-26c7-48d4-aa25-da79074437cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .fw-normal:nth-child(1)",
+      "targets": [
+        ["css=.d-flex > .fw-normal:nth-child(1)", "css:finder"],
+        ["xpath=//span[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b4c0b5-e18c-484c-9234-327afacd79a9",
+      "comment": "Iniciei uma nova partida e cliquei numa posição do tabuleiro do adversário para tentar acertar num navio",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b84a8969-e863-4d54-a1db-516d6b7cc722",
+    "name": "UserStoryTest7",
+    "commands": [{
+      "id": "ad4c53eb-8229-4254-a3c9-0d3705b825b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9fb4344-e3b5-4c10-b263-e2bd06899a6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "868x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83f471c1-a755-4cc5-bcfc-f30fb6b11fa2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fs-090:nth-child(2)",
+      "targets": [
+        ["css=.fs-090:nth-child(2)", "css:finder"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ac179fb-e06b-4742-b64a-5a451a4342d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fw-normal:nth-child(2)",
+      "targets": [
+        ["css=.fw-normal:nth-child(2)", "css:finder"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00352d36-c77f-4aff-9efb-35048701c853",
+      "comment": "",
+      "command": "click",
+      "target": "css=.target",
+      "targets": [
+        ["css=.target", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8aed5c7-e85c-4a70-8bb5-cb74fd0d6e99",
+      "comment": "O adversário realizou um ataque ao meu tabuleiro e foi possível visualizar a atualização da jogada. De seguida, realizei um ataque ao tabuleiro adversário e observei a atualização visual do resultado.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8d1cf30e-b907-4dbc-9086-395803dadaab",
+    "name": "UserStoryTest8",
+    "commands": [{
+      "id": "bd7964ab-87c8-478a-81ce-bbab72b13349",
+      "comment": "",
+      "command": "open",
+      "target": "https://papergames.io/en/battleship",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a51d15d3-5736-4a77-b7e7-56b344717120",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1159x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4df423-542a-412e-8d9f-28939007daa8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d-flex > .fw-normal:nth-child(1)",
+      "targets": [
+        ["css=.d-flex > .fw-normal:nth-child(1)", "css:finder"],
+        ["xpath=//span[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa8bb13-e4f9-41ec-b713-83965143d521",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .fw-normal:nth-child(1)",
+      "targets": [
+        ["css=.d-flex > .fw-normal:nth-child(1)", "css:finder"],
+        ["xpath=//span[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4916381-e052-430a-9206-0d2ae6868c4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.target",
+      "targets": [
+        ["css=.target", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b1d5f0-5d3a-4467-95df-8f2694529524",
+      "comment": "Foi possível visualizar o tempo da partida ao longo das jogadas realizadas durante o jogo.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f630888-0bf0-48e4-9d03-413ce82d2408",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://papergames.io/en/battleship"],
+  "plugins": []
+}
