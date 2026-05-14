@@ -1,0 +1,652 @@
+{
+  "id": "021b867a-4583-4d65-9cbb-972c0a194d8a",
+  "version": "2.0",
+  "name": "TesteSuite_122998",
+  "url": "https://papergames.io",
+  "tests": [{
+    "id": "a1326257-a18b-4e49-8609-40966e880c3a",
+    "name": "UserStoryTest1",
+    "commands": [{
+      "id": "53d7cc52-0856-4a5e-b774-9da4d61386af",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fd084f2-6201-49c2-8c77-c94a56fd753a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e58f7ed-243f-4ed0-9c53-c0a91734ed10",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-header-nav:nth-child(2) app-settings-menu .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(2) app-settings-menu .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//app-settings-menu/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e88f81e-cb18-4bba-9d9d-362d14354206",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-header-nav:nth-child(2) app-settings-menu .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(2) app-settings-menu .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//app-settings-menu/button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "220b02e7-0eaf-4be7-9522-74427a301be4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b79597a7-32c6-4d51-9403-7fd7a19e52cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.ms-1", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/p/a", "xpath:idRelative"],
+        ["xpath=//form/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf11303-3c17-46aa-a16a-b418b1d3e835",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-secondary:nth-child(2)",
+      "targets": [
+        ["css=.btn-secondary:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d61b0d-c4ce-4ad6-8ff1-de770fa992c9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-secondary:nth-child(2)",
+      "targets": [
+        ["css=.btn-secondary:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22366cc-566b-4ded-a924-8cc939e75871",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d24903-6889-4912-a96a-23330368fdbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luisa"
+    }, {
+      "id": "c5afdeb8-025f-4eee-8241-90ea46025bea",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-serverApp3",
+      "targets": [
+        ["id=mat-input-serverApp3", "id"],
+        ["css=#mat-input-serverApp3", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp3']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb6c1157-4d04-4dc9-8ef7-078afb42358b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp3",
+      "targets": [
+        ["id=mat-input-serverApp3", "id"],
+        ["css=#mat-input-serverApp3", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp3']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "luisanc2006@gmail.com"
+    }, {
+      "id": "e585d107-09dc-4966-9a65-84c527c4537c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-serverApp4",
+      "targets": [
+        ["id=mat-input-serverApp4", "id"],
+        ["css=#mat-input-serverApp4", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3131921e-d7d7-4116-9954-8c581fcf5381",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=mat-mdc-checkbox-serverApp0-input",
+      "targets": [
+        ["id=mat-mdc-checkbox-serverApp0-input", "id"],
+        ["css=#mat-mdc-checkbox-serverApp0-input", "css:finder"],
+        ["xpath=//input[@id='mat-mdc-checkbox-serverApp0-input']", "xpath:attributes"],
+        ["xpath=//mat-checkbox[@id='mat-mdc-checkbox-serverApp0']/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-checkbox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61cb665f-a308-49a8-abe3-0d63b1b85042",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp4",
+      "targets": [
+        ["id=mat-input-serverApp4", "id"],
+        ["css=#mat-input-serverApp4", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp4']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Engenhariasoftware"
+    }, {
+      "id": "15cb3c37-aecd-4fd9-b532-ed7be0779069",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-mdc-checkbox-serverApp0-input",
+      "targets": [
+        ["id=mat-mdc-checkbox-serverApp0-input", "id"],
+        ["css=#mat-mdc-checkbox-serverApp0-input", "css:finder"],
+        ["xpath=//input[@id='mat-mdc-checkbox-serverApp0-input']", "xpath:attributes"],
+        ["xpath=//mat-checkbox[@id='mat-mdc-checkbox-serverApp0']/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-checkbox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cddd1e3d-1801-4b74-acb0-c440a9a2d277",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=mat-mdc-checkbox-serverApp0-input",
+      "targets": [
+        ["id=mat-mdc-checkbox-serverApp0-input", "id"],
+        ["css=#mat-mdc-checkbox-serverApp0-input", "css:finder"],
+        ["xpath=//input[@id='mat-mdc-checkbox-serverApp0-input']", "xpath:attributes"],
+        ["xpath=//mat-checkbox[@id='mat-mdc-checkbox-serverApp0']/div/div/input", "xpath:idRelative"],
+        ["xpath=//mat-checkbox/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dac8dc9-5a44-437b-81a3-be3dbe4694cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary:nth-child(2)",
+      "targets": [
+        ["css=.btn-secondary:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65e7b94a-7ef6-4e86-ab9b-d65cdf342363",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9212322-b8aa-4a85-94d8-85720b2721fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-verify-button",
+      "targets": [
+        ["id=recaptcha-verify-button", "id"],
+        ["css=#recaptcha-verify-button", "css:finder"],
+        ["xpath=//button[@id='recaptcha-verify-button']", "xpath:attributes"],
+        ["xpath=//div[@id='rc-imageselect']/div[3]/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec226543-79fa-4c3e-8d33-d845d5ef22cf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "67f514cb-e91d-4c69-863a-53c16b69c24b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty:nth-child(1) > input",
+      "targets": [
+        ["css=.empty:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@type='tel']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/div/code-input/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "926b82f5-dd69-4d10-bb83-35b89c399f6f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-value",
+      "targets": [
+        ["css=.has-value", "css:finder"],
+        ["xpath=//input[@type='tel']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/div/code-input/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "2adef2d8-6e88-4c7c-ba89-575ff9ca8333",
+      "comment": "",
+      "command": "type",
+      "target": "css=span:nth-child(2) > .has-value",
+      "targets": [
+        ["css=span:nth-child(2) > .has-value", "css:finder"],
+        ["xpath=(//input[@type='tel'])[2]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/div/code-input/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "c2fe97b2-c034-482f-a736-60a6e699f7b6",
+      "comment": "",
+      "command": "type",
+      "target": "css=span:nth-child(3) > .has-value",
+      "targets": [
+        ["css=span:nth-child(3) > .has-value", "css:finder"],
+        ["xpath=(//input[@type='tel'])[3]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/div/code-input/span[3]/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "deec50d5-b9a8-43df-8701-ede2af9fa4f7",
+      "comment": "",
+      "command": "type",
+      "target": "css=span:nth-child(4) > .has-value",
+      "targets": [
+        ["css=span:nth-child(4) > .has-value", "css:finder"],
+        ["xpath=(//input[@type='tel'])[4]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/form/div/div/code-input/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "cb20c1f3-b03b-483e-bb98-b6a53dd4efdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-100:nth-child(1)",
+      "targets": [
+        ["css=.w-100:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-sign-up-form/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8cf9ca-192b-4645-a3d6-9d740c62bb23",
+      "comment": "Criei conta no jogo",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae3ad9e8-7205-4cb1-b289-a2d96d16c278",
+    "name": "UserStoryTest2",
+    "commands": [{
+      "id": "2664a59d-158a-4826-8b89-231125fe676d",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d3fafdb-f51f-4ab8-bbb0-f0433443ef1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41830e82-a5b0-4363-bd5d-d2ec8d13d145",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-header-nav:nth-child(2) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(2) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "377f544c-a2c4-433c-bcb2-fb40f3004cf2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-header-nav:nth-child(2) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=app-header-nav:nth-child(2) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b21cd6bf-72e1-44c7-9fdc-e907e8276a09",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "luisanc2006@gmail.com"
+    }, {
+      "id": "017296f0-4987-46eb-9383-b0920606f94e",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ca7439-dbb8-4c12-9b5a-4d63272001c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp1",
+      "targets": [
+        ["id=mat-input-serverApp1", "id"],
+        ["css=#mat-input-serverApp1", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp1']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Engenhariasoftware"
+    }, {
+      "id": "107ff0e0-a418-40f0-b2cc-01245460c100",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "844cb3fb-a73e-4705-a46d-7f235557cf55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb018a7-a0e3-4d9d-87fd-871b74886bb2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a13069a4-4507-43c5-beba-4e2b12cc19ff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[4]/app-juicy-button/button/span[2]", "xpath:idRelative"],
+        ["xpath=//app-juicy-button/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e290f2b-bd13-4a93-9070-c638c61c48b7",
+      "comment": "Fiz login na conta",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0f9ceb40-f7dd-4533-94f4-2d81b742fa47",
+    "name": "UserStoryTest4",
+    "commands": [{
+      "id": "20aabcf4-d054-4188-a42a-36f06f3a0ad9",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aee1808-d835-4c11-ac87-34608f766d4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a35b4785-6288-48ae-a2a5-ab9ad393ae47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-dark",
+      "targets": [
+        ["css=.btn-outline-dark", "css:finder"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "304093f4-6256-4bb2-b2f1-41d04b64523d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp0",
+      "targets": [
+        ["id=mat-input-serverApp0", "id"],
+        ["css=#mat-input-serverApp0", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp0']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[2]/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "luisanc2006@gmail.com"
+    }, {
+      "id": "4028f430-5dc9-4099-8227-79366c504a60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-0",
+      "targets": [
+        ["css=.p-0", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-login-form/form/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Forgot your password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "456f5f6b-0506-44aa-b0c9-fbef298cb358",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-forgot-password-form/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ae606d-2fd9-4b01-9fef-61340b3f384b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-serverApp2",
+      "targets": [
+        ["id=mat-input-serverApp2", "id"],
+        ["css=#mat-input-serverApp2", "css:finder"],
+        ["xpath=//input[@id='mat-input-serverApp2']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-forgot-password-form/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "luisacn2005@gmail.com"
+    }, {
+      "id": "8789551d-ee2f-44ab-a338-778b59debfa9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-1 > .btn",
+      "targets": [
+        ["css=.mt-1 > .btn", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-sign-up-dialog/app-dialog-layout/div/section/div/div/app-sign-up/div/app-forgot-password-form/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Request password change')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0464df23-89b4-4c0e-b66a-9d5742ac1d4f",
+    "name": "UserStoryTest3",
+    "commands": [{
+      "id": "06b88193-3d97-4107-ba2b-d4c1d4c234dc",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5efa8d89-318d-4b93-a920-a5696dfde02d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ea227f4-73ff-4085-9b0f-6f2632b30034",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-menu-trigger > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-menu-trigger > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c13d4a6-2760-4a6c-93da-79d37cc50d1a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-menu-trigger > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-menu-trigger > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ba018de-cfe6-4497-9d6b-7ecf3eb288c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ms-2 > div:nth-child(1)",
+      "targets": [
+        ["css=.ms-2 > div:nth-child(1)", "css:finder"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "874b5d03-a360-4a16-b73b-9232ab32b448",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ms-2 > div:nth-child(1)",
+      "targets": [
+        ["css=.ms-2 > div:nth-child(1)", "css:finder"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f15ddd2-4728-498f-aa0c-de06077415ad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ms-2 > div:nth-child(1)",
+      "targets": [
+        ["css=.ms-2 > div:nth-child(1)", "css:finder"],
+        ["xpath=//span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad2c0bdb-9569-49c6-8723-f4e0199fdfab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-menu-item-text",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-menu-item-text", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-serverApp0']/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7896f8c5-1803-4649-94a7-5c93e73d35fc",
+      "comment": "Fiz logout da conta",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4987f829-e01b-4867-8fe4-7fd445245a74",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://papergames.io/"],
+  "plugins": []
+}
